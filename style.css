@@ -1,0 +1,122 @@
+body {
+  background-color: hsl(185, 75%, 39%);
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  background-image: url("images/bg-pattern-top.svg"),
+    url("images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat;
+  background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+  background-attachment: fixed;
+  margin: auto;
+  font-family: Kumbh Sans;
+}
+
+.container {
+  padding: 50px 0px 50px 0px;
+  border-radius: 3%;
+  background-color: white;
+  margin: 10%;
+}
+
+.header-img img {
+  width: 100%;
+  height: 140px;
+  margin-top: -50px;
+  padding: 0;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.profile-image {
+  text-align: center;
+  padding-top: 10px;
+  margin-top: -50px;
+}
+.profile-image img {
+  border-radius: 50%;
+  border: 5px solid white;
+  background-color: white;
+}
+
+.name-age {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  text-align: center;
+}
+.name-age :first-child {
+  color: hsl(229, 23%, 23%);
+  font-weight: 700;
+  font-size: 18px;
+}
+.name-age :nth-child(2) {
+  color: hsl(227, 10%, 46%);
+  margin-top: 20px;
+  font-weight: 400;
+}
+
+.city {
+  text-align: center;
+  color: hsl(229, 23%, 23%);
+  border-bottom: 1px solid hsl(0, 0%, 59%);
+  opacity: 0.5;
+  padding-bottom: 20px;
+}
+
+.container2 {
+  display: flex;
+  gap: 50px;
+  padding-top: -50px;
+  justify-content: center;
+}
+.container2 div {
+  text-align: center;
+  margin-bottom: -30px;
+  margin-top: 20px;
+}
+
+.followers :first-child {
+  color: hsl(229, 23%, 23%);
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: -5px;
+}
+.likes :first-child {
+  color: hsl(229, 23%, 23%);
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 18px;
+  margin-bottom: -5px;
+}
+.photos :first-child {
+  color: hsl(229, 23%, 23%);
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: -5px;
+}
+
+.followers :nth-child(2) {
+  color: hsl(0, 0%, 59%);
+  font-size: 10px;
+  letter-spacing: 2px;
+}
+.likes:nth-child(2) {
+  color: hsl(0, 0%, 59%);
+  font-size: 10px;
+  letter-spacing: 2px;
+}
+.photos :nth-child(2) {
+  color: hsl(0, 0%, 59%);
+  font-size: 10px;
+  letter-spacing: 2px;
+}
+
+.attribution {
+  font-size: 12px;
+  text-align: center;
+  color: azure;
+}
+.attribution a {
+  color: hsl(229, 23%, 23%);
+}
